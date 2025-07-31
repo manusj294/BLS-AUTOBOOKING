@@ -1,0 +1,94 @@
+BLSVisaAutoBooking/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/bls/autobooking/
+│   │   │   │   ├── data/
+│   │   │   │   │   ├── model/
+│   │   │   │   │   │   ├── Applicant.kt
+│   │   │   │   │   │   └── Preferences.kt
+│   │   │   │   │   ├── dao/
+│   │   │   │   │   │   ├── ApplicantDao.kt
+│   │   │   │   │   │   └── PreferencesDao.kt
+│   │   │   │   │   ├── database/
+│   │   │   │   │   │   └── AppDatabase.kt
+│   │   │   │   │   └── repository/
+│   │   │   │   │       ├── ApplicantRepository.kt
+│   │   │   │   │       ├── PreferencesRepository.kt
+│   │   │   │   │       ├── BookingRepository.kt
+│   │   │   │   │       └── CaptchaRepository.kt
+│   │   │   │   ├── network/
+│   │   │   │   │   ├── api/
+│   │   │   │   │   │   ├── BlsApiService.kt
+│   │   │   │   │   │   └── EmailJsService.kt
+│   │   │   │   │   ├── model/
+│   │   │   │   │   │   ├── CaptchaRequest.kt
+│   │   │   │   │   │   ├── CaptchaResponse.kt
+│   │   │   │   │   │   └── EmailRequest.kt
+│   │   │   │   │   └── RetrofitClient.kt
+│   │   │   │   ├── engine/
+│   │   │   │   │   ├── AppointmentSlot.kt
+│   │   │   │   │   ├── BookingEngineImpl.kt
+│   │   │   │   │   └── FormFieldIdentifier.kt
+│   │   │   │   ├── scraper/
+│   │   │   │   │   └── BlsWebsiteScraper.kt
+│   │   │   │   ├── captcha/
+│   │   │   │   │   ├── CaptchaHandler.kt
+│   │   │   │   │   └── CaptchaImageCapture.kt
+│   │   │   │   ├── service/
+│   │   │   │   │   └── SlotMonitoringServiceImpl.kt
+│   │   │   │   ├── webview/
+│   │   │   │   │   ├── WebViewManager.kt
+│   │   │   │   │   └── JavaScriptBridge.kt
+│   │   │   │   ├── security/
+│   │   │   │   │   ├── RequestVerificationTokenHandler.kt
+│   │   │   │   │   ├── SessionManager.kt
+│   │   │   │   │   └── SecureStorage.kt
+│   │   │   │   ├── booking/
+│   │   │   │   │   └── BookingSuccessVerifier.kt
+│   │   │   │   ├── error/
+│   │   │   │   │   └── ErrorHandler.kt
+│   │   │   │   ├── util/
+│   │   │   │   │   └── Logger.kt
+│   │   │   │   ├── automation/
+│   │   │   │   │   └── StealthAutomationImpl.kt
+│   │   │   │   ├── worker/
+│   │   │   │   │   └── SlotMonitoringWorker.kt
+│   │   │   │   ├── viewmodel/
+│   │   │   │   │   └── MainViewModel.kt
+│   │   │   │   ├── ui/
+│   │   │   │   │   ├── theme/
+│   │   │   │   │   │   ├── Color.kt
+│   │   │   │   │   │   ├── Theme.kt
+│   │   │   │   │   │   └── Type.kt
+│   │   │   │   │   └── screen/
+│   │   │   │   │       ├── ApplicantListScreen.kt
+│   │   │   │   │       ├── AddEditApplicantScreen.kt
+│   │   │   │   │       └── PreferencesScreen.kt
+│   │   │   │   └── MainActivity.kt
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/
+│   │   │   │   │   └── ic_notification.xml
+│   │   │   │   ├── mipmap-anydpi-v26/
+│   │   │   │   │   ├── ic_launcher.xml
+│   │   │   │   │   └── ic_launcher_round.xml
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── themes.xml
+│   │   │   │   └── xml/
+│   │   │   │       ├── backup_rules.xml
+│   │   │   │       └── data_extraction_rules.xml
+│   │   │   └── AndroidManifest.xml
+│   │   └── build.gradle
+│   ├── build.gradle
+│   └── proguard-rules.pro
+├── gradle/
+│   └── wrapper/
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── build.gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+└── settings.gradle
